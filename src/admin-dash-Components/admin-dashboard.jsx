@@ -5,7 +5,7 @@ export default function AdminDashboard() {
   return (
     <div className="flex min-h-screen bg-white text-black">
       <Sidebar />
-      <main className="bg-gray-100 flex-1">
+      <main className="bg-gray-50 flex-1">
         <Tenants />
       </main>
     </div>
